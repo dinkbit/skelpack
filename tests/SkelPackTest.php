@@ -15,6 +15,6 @@ namespace Dinkbit\SkelPack\Tests;
  *
  * @author Joseph Cohen <joseph.cohen@dinkbit.com>
  */
-class SkelPackTest extends PHPUnit_Framework_TestCase
+class SkelPackTest extends \PHPUnit_Framework_TestCase
 {
 }
