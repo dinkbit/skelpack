@@ -1,0 +1,39 @@
+{
+    "name": "dinkbit/skelpack",
+    "description": "Skeleton to start new PHP packages",
+    "license": "MIT",
+    "keywords": [
+        "skeleton",
+        "package",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Joseph Cohen",
+            "email": "joseph.cohen@dinkbit.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dinkbit\\SkelPack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dinkbit\\SkelPack\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
